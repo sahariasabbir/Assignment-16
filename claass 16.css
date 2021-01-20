@@ -1,0 +1,131 @@
+.main{
+    height: 500px;
+    width: 700px;
+    background-color: hsla(0, 0%, 100%, 0.699);
+    border: 2px solid darkslategrey;
+    margin: auto;
+	text-align: center;
+	position: relative;
+    
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(38, 26, 194);
+    border: 2px solid forestgreen;
+    display: inline-block;
+    position: relative;
+    top: 70px;
+}
+.div1 p{
+    padding: 10px;
+}
+.div2 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(167, 14, 108);
+	border: 2px solid forestgreen;
+	display: inline-block;
+	position: relative;
+	top: 116px;
+	right: 84px;
+}
+.div3 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(175, 123, 25);
+	border: 2px solid forestgreen;
+	display: inline-block;
+	position: relative;
+	top: 182px;
+	right: 163px;
+}
+.div4 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(22, 206, 160);
+	border: 2px solid forestgreen;
+	display: inline-block;
+	position: relative;
+	top: 242px;
+	right: 254px;
+}
+.divk{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(21, 71, 105);
+	border: 2px solid forestgreen;
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	
+}
+.divo{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(196, 199, 9);
+	border: 2px solid hotpink;
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+.divo p{
+	opacity: 0;
+}
+.divo:hover{
+	background-color: rgb(138, 14, 14);
+}
+.divo:hover p{
+	opacity: 1;
+	transition: 3s;
+}
+.divq{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(25, 12, 141);
+	border: 4px solid fuchsia;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.divw{
+	width: 200px;
+	height: 200px;
+	background-color: rgba(9, 209, 216, 0.863);
+	border: 4px solid rgb(138, 17, 17);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.divw p{
+	opacity: 0;
+
+}
+.divw:hover{
+	background-color: rgb(28, 160, 72,.6);
+}
+.divw:hover p{
+	opacity: 2;
+	transition: 2s;
+}
+.divu{
+	width: 200px;
+	height: 200px;
+	background-color: rgba(165, 22, 129, 0.74);
+	border: 4px solid fuchsia;
+	position: absolute;
+	top: 70px;
+	right: 138px;
+}
+.divu p{
+	opacity: 0;
+}
+.divu:hover{
+	background-color: rgba(6, 177, 35, 0.527);
+}
+.divu:hover p{
+	opacity: 2;
+	transition: 3s;
+}
